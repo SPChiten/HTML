@@ -1,0 +1,535 @@
+HTML (Hypertext Markup Language) is a markup language used for creating the structure and presentation of web pages. It consists of a set of commands called tags that define the elements and their properties within a web page. Here are some commonly used HTML tags:
+***************************
+Document Structure:
+
+<!DOCTYPE>: Specifies the document type.
+<html>: Defines the root element of an HTML document.
+<head>: Contains metadata about the document.
+<title>: Sets the title of the document.
+<body>: Represents the content of the document.
+***************************
+
+Text Formatting:
+
+<h1> to <h6>: Defines headings of different levels.
+<p>: Defines a paragraph.
+<b>: Displays text in bold.
+<i>: Displays text in italics.
+<u>: Underlines text.
+<em>: Emphasizes text.
+<strong>: Indicates strong importance.
+***************************
+
+Links and URLs:
+
+
+<a>: Creates a hyperlink.
+<href>: Specifies the URL of the linked resource.
+<target>: Defines where to open the linked document.
+<img>: Inserts an image.
+<src>: Specifies the source URL of the image.
+***************************
+
+Lists:
+
+<ul>: Defines an unordered (bulleted) list.
+<ol>: Defines an ordered (numbered) list.
+<li>: Represents a list item.
+***************************
+
+Tables:
+
+<table>: Creates a table.
+<tr>: Defines a table row.
+<th>: Defines a table header cell.
+<td>: Defines a table data cell.
+<caption>: Adds a caption to a table.
+***************************
+
+Forms and Input:
+
+<form>: Creates an HTML form.
+<input>: Defines an input field.
+<textarea>: Defines a multiline input field.
+<button>: Creates a clickable button.
+<select>: Creates a dropdown list.
+<option>: Defines an option in a dropdown list.
+<label>: Defines a label for an input element.
+***************************
+
+Styling and Layout:
+
+<div>: Defines a division or section in an HTML document.
+<span>: Defines a section within a document.
+<style>: Embeds CSS styles within an HTML document.
+<link>: Links an external CSS file to the HTML document.
+***************************
+
+Multimedia:
+
+<audio>: Embeds audio content.
+<video>: Embeds video content.
+<iframe>: Embeds an external web page.
+
+*****************************************************
+
+HTML commands with examples:
+***********
+
+<html>: Defines the root element of an HTML document.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <!-- Content goes here -->
+  </body>
+</html>
+---------------------------------------
+
+<head>: Contains meta-information about the HTML document.
+
+    <head>
+  <title>My Web Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+---------------------------------------
+<title>: Sets the title of the HTML document (displayed in the browser's title bar or tab).
+
+<title>My Web Page</title>
+---------------------------------------
+<body>: Contains the visible content of the HTML document.
+
+<body>
+  <h1>Welcome to my website</h1>
+  <p>This is some text.</p>
+</body>
+---------------------------------------
+<h1> to <h6>: Defines headings of different levels.
+
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+---------------------------------------
+<p>: Represents a paragraph of text.
+
+<p>This is a paragraph.</p>
+---------------------------------------
+<a>: Creates a hyperlink to another web page or resource.
+
+<a href="https://www.cocff.com">Visit Example</a>
+---------------------------------------
+<img>: Inserts an image into the HTML document.
+
+<img src="image.jpg" alt="Description of the image">
+---------------------------------------
+<div>: Defines a division or section in an HTML document.
+
+<div>
+  <h2>Section Heading</h2>
+  <p>This is some content in the section.</p>
+</div>
+---------------------------------------
+<br>: Inserts a line break.
+
+<p>This is the first line.<br>This is the second line.</p>
+---------------------------------------
+<span>: Defines a section of text within a larger document or element.
+
+<p>Visit our <span style="font-weight: bold;">website</span> for more information.</p>
+---------------------------------------
+<input>: Creates an input field for user input.
+
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+---------------------------------------
+<textarea>: Creates a multi-line text input area.
+
+<textarea id="message" name="message" rows="4" cols="30"></textarea>
+---------------------------------------
+<button>: Creates a clickable button.
+    
+<button type="button">Click Me</button>
+---------------------------------------
+<select> and <option>: Creates a drop-down list.
+
+<select name="city">
+  <option value="london">London</option>
+  <option value="paris">Paris</option>
+  <option value="newyork">New York</option>
+</select>
+---------------------------------------
+<label>: Associates a label with a form element.
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+---------------------------------------
+<ul> and <li>: Creates an unordered list with list items.
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+---------------------------------------
+<ol> and <li>: Creates an ordered list with list items.
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
+
+---------------------------------------
+<table>: Defines a table with rows and columns.
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+  </tr>
+</table>
+
+---------------------------------------
+<form>: Creates a form for user input.
+   
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <input type="submit" value="Submit">
+</form>
+
+---------------------------------------
+<iframe>: Embeds an external web page or media content within an HTML document.
+
+<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315"></iframe>
+<iframe src="https://www.cocff.com"></iframe>
+---------------------------------------
+<strong> and <em>: Specifies strong emphasis and italic emphasis, respectively.
+
+<p>This is <strong>important</strong> information.</p>
+<p>This is <em>italicized</em> text.</p>
+---------------------------------------
+<style>: Defines inline CSS styles for an element.
+
+<p style="color: red; font-size: 18px;">This is some styled text.</p>
+---------------------------------------
+<script>: Embeds or references external JavaScript code.
+
+<script src="script.js"></script>
+---------------------------------------
+<header>: Represents the introductory content or a group of navigational links at the top of a 
+
+<header>
+  <h1>Welcome to My Website</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+---------------------------------------
+<footer>: Defines the footer section of a document or a section.
+
+<footer>
+  <p>&copy; 2023 My Website. All rights reserved.</p>
+</footer>
+---------------------------------------
+<section>: Represents a standalone section of content.
+
+<section>
+  <h2>About Me</h2>
+  <p>I am a web developer with a passion for creating awesome websites.</p>
+</section>
+
+---------------------------------------
+<nav>: Represents a section of a document that contains navigation links.
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/contact">Contact</a>
+</nav>
+---------------------------------------
+<aside>: Defines content that is tangentially related to the main content.
+
+<aside>
+  <h3>Related Articles</h3>
+  <ul>
+    <li><a href="/article1">Article 1</a></li>
+    <li><a href="/article2">Article 2</a></li>
+  </ul>
+</aside>
+
+---------------------------------------
+<blockquote>: Indicates that the enclosed text is a longer quotation.
+
+<blockquote>
+  <p>"Be yourself; everyone else is already taken." - Oscar Wilde</p>
+</blockquote>
+
+---------------------------------------
+<audio>: Embeds audio content into an HTML document.
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+---------------------------------------
+<video>: Embeds video content into an HTML document.
+
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+---------------------------------------
+<canvas>: Provides a space where JavaScript can be used to draw graphics and animations.
+
+<canvas id="myCanvas" width="400" height="200"></canvas>
+---------------------------------------
+<progress>: Represents the progress of a task or process.
+
+<progress value="50" max="100"></progress>
+---------------------------------------
+<meter>: Represents a scalar measurement within a known range.
+
+<meter value="75" min="0" max="100">75%</meter>
+---------------------------------------
+<datalist> and <option>: Defines a list of predefined options for an input element.
+
+<input type="text" list="fruits">
+<datalist id="fruits">
+  <option value="Apple">
+  <option value="Banana">
+  <option value="Orange">
+</datalist>
+---------------------------------------
+<details> and <summary>: Creates a collapsible section with a summary.
+
+<details>
+  <summary>Click to expand</summary>
+  <p>This is some additional information.</p>
+</details>
+---------------------------------------
+<time>: Represents a specific date and/or time.
+
+<p>Meeting scheduled for <time datetime="2023-06-10T09:00">June 10th, 2023 at 9:00 AM</time></p>
+---------------------------------------
+<figure> and <figcaption>: Groups media content with its caption.
+
+<figure>
+  <img src="image.jpg" alt="A beautiful image">
+  <figcaption>This is a beautiful image.</figcaption>
+</figure>
+---------------------------------------
+<mark>: Highlights or marks a section of text.
+
+<p>This is <mark>important</mark> information.</p>
+---------------------------------------
+<meter>: Represents a scalar measurement within a known range.
+
+<meter value="75" min="0" max="100">75%</meter>
+---------------------------------------
+<output>: Displays the result of a calculation or user action.
+
+<output name="result"></output>
+---------------------------------------
+<ruby>, <rt>, and <rp>: Represents ruby annotations for East Asian typography.
+
+<ruby>
+  漢 <rp>(</rp><rt>kan</rt><rp>)</rp>
+  字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+</ruby>
+---------------------------------------
+<time>: Represents a specific date and/or time.
+
+<p>Published: <time datetime="2023-06-01">June 1st, 2023</time></p>
+---------------------------------------
+<wbr>: Specifies a word break opportunity within a line of text.
+
+<p>This is a very longword that could be broken with a <wbr>word break.</p>
+---------------------------------------
+<bdi>: Isolates a span of text that might be formatted in a different direction from the surrounding text.
+
+<p><bdi>مرحبا بك</bdi> Welcome!</p>
+---------------------------------------
+<details> and <summary>: Creates a collapsible section with a summary.
+
+<details>
+  <summary>Click to expand</summary>
+  <p>This is some additional information.</p>
+</details>
+---------------------------------------
+<picture> and <source>: Specifies multiple sources for an image based on different 
+
+<picture>
+  <source media="(max-width: 600px)" srcset="image-small.jpg">
+  <source media="(min-width: 601px)" srcset="image-large.jpg">
+  <img src="image.jpg" alt="A responsive image">
+</picture>
+---------------------------------------
+<kbd>: Represents user input as keyboard text.
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy the selected text.</p>
+---------------------------------------
+<s>: Renders text with a strikethrough effect.
+
+<p>This item is <s>out of stock</s>.</p>
+---------------------------------------
+<sub> and <sup>: Specifies subscript and superscript text, respectively.
+
+<p>H<sub>2</sub>O</p>
+<p>E = mc<sup>2</sup></p>
+---------------------------------------
+<meter>: Represents a scalar measurement within a known range.
+
+<meter value="75" min="0" max="100">75%</meter>
+---------------------------------------
+<abbr>: Defines an abbreviation or acronym.
+
+<p>The <abbr title="World Health Organization">WHO</abbr> provides global health information.</p>
+---------------------------------------
+<bdo>: Overrides the current text direction.
+
+<bdo dir="rtl">This text is right-to-left.</bdo>
+---------------------------------------
+<colgroup> and <col>: Specifies properties for a group of columns in a table.
+
+<table>
+  <colgroup>
+    <col style="background-color: yellow;">
+    <col span="2" style="background-color: lightblue;">
+  </colgroup>
+  <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+    <td>Column 3</td>
+  </tr>
+</table>
+
+---------------------------------------
+<dialog>: Represents a dialog box or window.
+
+<dialog open>
+  <p>This is a dialog box.</p>
+  <button>Close</button>
+</dialog>
+---------------------------------------
+<template>: Defines a content that is not rendered immediately when the page loads.
+
+<template>
+  <h2>Template Content</h2>
+  <p>This content is not rendered by default.</p>
+</template>
+---------------------------------------
+<wbr>: Specifies a word break opportunity within a line of text.
+
+<p>This is a very longword that could be broken with a <wbr>word break.</p>
+---------------------------------------
+<map> and <area>: Defines an image map and clickable areas within it.
+
+<img src="image.jpg" alt="World Map" usemap="#map">
+<map name="map">
+  <area shape="circle" coords="50,50,30" href="location1.html" alt="Location 1">
+  <area shape="rect" coords="100,100,200,200" href="location2.html" alt="Location 2">
+</map>
+---------------------------------------
+<details> and <summary>: Creates a collapsible section with a summary.
+
+<details>
+  <summary>Click to expand</summary>
+  <p>This is some additional information.</p>
+</details>
+---------------------------------------
+<script>: Embeds or references external JavaScript code.
+
+<script src="script.js"></script>
+---------------------------------------
+<noscript>: Defines alternate content to be displayed if the browser does not support scripting or if scripting is disabled.
+
+<noscript>
+  <p>This website requires JavaScript to function properly.</p>
+</noscript>
+---------------------------------------
+<small>: Represents smaller text, typically used for disclaimers or legal notices.
+
+<p><small>© 2023 Company Name. All rights reserved.</small></p>
+---------------------------------------
+<del>: Renders deleted text, typically displayed with a strikethrough effect.
+
+<p>This sentence contains a <del>deleted</del> word.</p>
+---------------------------------------
+<ins>: Renders inserted text, typically displayed with an underline.
+
+<p>This sentence contains an <ins>inserted</ins> word.</p>
+---------------------------------------
+<cite>: Represents the title of a creative work or a reference to a citation.
+
+<p>The article "HTML Basics" was published in <cite>Web Development Journal</cite>.</p>
+---------------------------------------
+<code>: Represents a fragment of computer code.
+
+<p>The syntax for a for loop in JavaScript is <code>for (var i = 0; i < 10; i++) { ... }</code>.</p>
+---------------------------------------
+<legend>: Defines a caption for the <fieldset> element.
+
+<fieldset>
+  <legend>Personal Information</legend>
+  <label for="name">Name:</label>
+  <input type="text" id="name">
+</fieldset>
+---------------------------------------
+<optgroup> and <option>: Groups related <option> elements within a <select> element.
+
+<select>
+  <optgroup label="Fruits">
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+  </optgroup>
+  <optgroup label="Vegetables">
+    <option value="carrot">Carrot</option>
+    <option value="tomato">Tomato</option>
+  </optgroup>
+</select>
+---------------------------------------
+<picture> and <source>: Specifies multiple sources for an image based on different scenarios.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="image-small.jpg">
+  <source media="(min-width: 601px)" srcset="image-large.jpg">
+  <img src="image.jpg" alt="A responsive image">
+</picture>
+
+---------------------------------------
+<video> and <track>: Embeds a video with caption/subtitle tracks.
+
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <track src="captions.vtt" kind="captions" label="English" srclang="en">
+</video>
+---------------------------------------
+<datalist> and <option>: Defines a list of predefined options for an input element.
+
+<input type="text" list="fruits">
+<datalist id="fruits">
+  <option value="Apple">
+  <option value="Banana">
+  <option value="Orange">
+</datalist>
+---------------------------------------
+<meter>: Represents a scalar measurement within a known range.
+
+<meter value="75" min="0" max="100">75%</meter>
+---------------------------------------
+<output>: Displays the result of a calculation or user action.
+
+<form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
+  <input type="number" id="a" name="a" value="0">
+  +
+  <input type="number" id="b" name="b" value="0">
+  =
+  <output name="result"></output>
+</form>
+---------------------------------------
